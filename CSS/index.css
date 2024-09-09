@@ -102,6 +102,13 @@ img {
     width: 35px;
 }
 
+#img-carrito:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
