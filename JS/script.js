@@ -2,16 +2,25 @@ const carrito = document.getElementById('carrito');
 const elementos1 = document.getElementById('lista-1');
 const lista = document.querySelector('#lista-carrito tbody');
 const vaciarCarritoBtn = document.getElementById('vaciar-car');
+const imgCarrito = document.getElementById('img-carrito');
 
 cargarEventListeners();
 
 function cargarEventListeners() {
-
+    imgCarrito.addEventListener('click', ToggleMostrarSubmenu);
     elementos1.addEventListener('click', comprarElemento);
     carrito.addEventListener('click', eliminarElemento);
     vaciarCarritoBtn.addEventListener('click', vaciarCarrito);
 
 }
+
+function ToggleMostrarSubmenu(elemento) {
+    if (carrito.id == "carrito") {
+        carrito.id = "mostrar";
+    } else {
+        carrito.id = "carrito";
+    }
+} 
 
 function comprarElemento(e) {
     e.preventDefault();
@@ -60,6 +69,7 @@ function eliminarElemento(e) {
         elementoId = elemento.querySelector('a').getAttribute('data-id');
     }
 }
+
 
 function vaciarCarrito() {
     while(lista.firstChild) {
