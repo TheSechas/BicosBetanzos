@@ -121,7 +121,8 @@ img {
 }
 
 .menu {
-    position: absolute;
+    position: fixed;
+    background-color: #f1f1f1;
     top: 0;
     left: 0;
     right: 0;
@@ -319,8 +320,6 @@ th td {
 }
 
 .product img {
-    width: 250%;
-    height: 370px;
     margin-bottom: 20px;
 }
 
