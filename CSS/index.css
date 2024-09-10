@@ -29,7 +29,7 @@ body {
 }
 
 .busqueda:hover {
-    width: 200px;
+    width: 300px;
 }
 
 .busqueda:hover input {
@@ -105,6 +105,50 @@ img {
 #img-carrito:hover {
     cursor: pointer;
     transform: scale(1.1);
+}
+
+#inicio {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: -100px;
+}
+
+.horario {
+    font-family: "Oswald", sans-serif;
+    margin-left: 160px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#inicio {
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+#schedule {
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    margin-left: 880px;
+}
+
+#schedule li {
+    background: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#schedule li.today {
+    background: #d29ef5;
+    border-color: #bf6de6;
+    font-weight: bold;
+}
+
+.banner {
+    text-align: center;
 }
 
 .container {
