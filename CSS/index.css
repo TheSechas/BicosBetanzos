@@ -151,6 +151,51 @@ img {
     text-align: center;
 }
 
+.contact-form {
+    font-family: "Poppins", sans-serif;
+    background-color: #dbdbdba1;
+    padding: 40px;
+    margin: 20px auto;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 650px;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    color: #37015f;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #37015f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #250440;
+}
+
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
