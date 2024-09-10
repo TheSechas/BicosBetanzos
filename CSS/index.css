@@ -66,7 +66,7 @@ input {
     backdrop-filter: blur(10px);
     background-color: #4E4B5076;
     min-width: 150px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
     z-index: 1;
     margin-left: 0px;
 }
@@ -106,8 +106,6 @@ img {
     cursor: pointer;
     transform: scale(1.1);
 }
-
-
 
 .container {
     max-width: 1200px;
@@ -186,6 +184,7 @@ img {
     backdrop-filter: blur(10px);
     z-index: 1;
     background-color: #4E4B5076;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
     padding: 20px;
     min-width: 400px;
 }
@@ -368,6 +367,10 @@ th td {
 .icon-txt p {
     font-size: 16px;
     color: #37015f;
+}
+
+.p {
+    margin-right: 40px;
 }
 
 .blog {
